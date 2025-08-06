@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+/* Custom color variables */
+@theme {
+  --color-primary: #241F0F;
+  --color-secondry:#4A4021;
+  --color-primary2: #362E17;
+  --color-brown-0: #6B592E;
+  --color-brown-1: #E5E8EB;
+  --color-brown-2: #CCBD8f;
+  --color-yellow-1: #FABF24;
+}
+
+/* You can then use them in Tailwind via config or inline */
+body {
+  background-color: var(--color-primary);
+}
